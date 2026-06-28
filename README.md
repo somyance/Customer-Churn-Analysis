@@ -1,11 +1,13 @@
 # Customer-Churn-Analysis
 Predicting customer churn is one of the highest-value problems in business today. I took on the Telco Customer Churn dataset to build a predictive system that helps businesses take proactive retention steps before it's too late.
+
 Key Highlights of the Project:
 🧹 Data Preprocessing: Handled missing values in TotalCharges via median imputation and cleaned up formatting errors.
 🏷️ Feature Engineering: Converted categorical text (contracts, payment methods) into numerical data using Label Encoding.
 ⚖️ Feature Scaling: Applied StandardScaler to normalize features (tenure vs. monthly charges) for uniform algorithm weight.
 🤖 Predictive Modeling: Trained a Random Forest Classifier achieving a 78% baseline accuracy.
 📊 Deep-Dive Evaluation: Used a Confusion Matrix to look beyond simple accuracy, specifically analyzing False Negatives to isolate missed churn patterns for future model tuning.
+
 Building this highlighted the importance of clean data pipelines and using the right evaluation metrics to solve real-world business bottlenecks.
 
 
